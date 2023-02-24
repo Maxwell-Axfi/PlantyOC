@@ -1,0 +1,17 @@
+2023-03-17T09:55:56+00:00 CRITICAL Unclosed '{' on line 123 in C:\Users\Arthur\Local Sites\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 152
+
+2023-03-17T09:55:56+00:00 CRITICAL Unclosed '{' on line 123 in C:\Users\Arthur\Local Sites\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 152
+
+2023-03-17T09:56:14+00:00 CRITICAL Uncaught Error: Undefined constant "‘show_in_rest’" in C:\Users\Arthur\Local Sites\planty\app\public\wp-content\themes\blankslate-child\functions.php:146
+Stack trace:
+#0 C:\Users\Arthur\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(308): wpm_add_taxonomies('')
+#1 C:\Users\Arthur\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Arthur\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Arthur\Local Sites\planty\app\public\wp-settings.php(617): do_action('init')
+#4 C:\Users\Arthur\Local Sites\planty\app\public\wp-config.php(93): require_once('C:\\Users\\Arthur...')
+#5 C:\Users\Arthur\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Arthur...')
+#6 C:\Users\Arthur\Local Sites\planty\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\Arthur...')
+#7 C:\Users\Arthur\Local Sites\planty\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\Arthur...')
+#8 {main}
+  thrown in C:\Users\Arthur\Local Sites\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 146
+
