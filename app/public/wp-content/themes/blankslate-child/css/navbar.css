@@ -1,0 +1,43 @@
+.planty_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 90px;
+    margin-left: 35px;
+}
+
+.custom-logo {
+    height: 20px;
+    width: 200px;
+}
+
+#menu-menu-planty {
+    display: flex;
+    column-gap: 60px;
+}
+
+.menu-menu-planty-container > ul > li > a {
+    text-decoration: none;
+}
+
+#menu-item-38 > a, #menu-item-admin > a {
+    color: black;
+}
+
+#menu-item-38 > a:hover, #menu-item-admin > a:hover, li.menu-item.current-menu-item a {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#menu-item-37 > a {
+    color: white;
+    background-color: #DC9F96;
+    padding: 36px 60px 35px 60px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#menu-item-37 > a:hover {
+    background-color: #C02E44; 
+}
