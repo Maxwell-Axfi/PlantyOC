@@ -10,3 +10,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags:    	 opensource     
 Text Domain: blankslatechild
 */
+
+/*GÉNÉRAL*/
+@import url('css/general.css');
+
+/*NAVBAR*/
+@import url('css/navbar.css');
+
+/*FOOTER*/
+@import url('css/footer.css');
