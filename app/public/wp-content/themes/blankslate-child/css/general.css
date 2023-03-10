@@ -13,3 +13,57 @@ p {
     line-height: 24px;
     font-weight: 400;
 }
+
+h1 {
+    font-size: 38px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 36px;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.planty_bouton > a {
+    background-color: #E0B9B4;
+    font-size: 15px;
+    line-height: 37px;
+    font-weight: 400;
+    color: white;
+    padding: 9px 57px;
+    border-radius: 5px;
+}
+
+.planty_bouton > a:hover {
+    background-color: #C02E44;
+}
+
+.planty_green_font {
+    color:#3B8E46;
+}
+
+.planty_pink_font {
+    color: #D2776A;
+}
+
+.planty_beige_background {
+    background-color: #ECE2DA;
+}
