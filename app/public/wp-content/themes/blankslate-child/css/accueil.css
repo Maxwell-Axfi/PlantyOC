@@ -41,3 +41,61 @@
     background-color: white; 
     padding-bottom: 60px;
 }
+
+/*Section 3*/
+
+.planty_accueil_section3_colonne {
+    padding-top: 63px;
+}
+
+.planty_accueil_section3_h2 {
+    padding-bottom: 6px;
+}
+
+.wp-container-6, .wp-container-8 {
+    margin-bottom: 0px !important;
+}
+
+.planty_accueil_section3_colonne_gouts {
+    display: flex;
+    justify-content: center;
+}
+
+.planty_accueil_section3_gouts {
+    padding-top: 49px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 40px !important;
+    column-gap: 30px !important;
+}
+
+.planty_accueil_section3_gouts > article > div > div > div > img {
+    width: 393px !important;
+    height: 262px !important;
+}
+
+.planty_accueil_section3_gouts > article > div > .ebpg-entry-wrapper {
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.planty_accueil_section3_gouts > article > div > div > .ebpg-entry-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 48px;
+    line-height: 57.6px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.planty_accueil_section3_bouton {
+    padding-top: 47px;
+    padding-bottom: 45px;
+    border-radius: 0% 0% 35% 35% / 0% 0% 10% 10%;
+}
