@@ -17,5 +17,11 @@ Text Domain: blankslatechild
 /*NAVBAR*/
 @import url('css/navbar.css');
 
+/*PAGE ACCUEIL*/
+@import url('css/accueil.css');
+
+/*PAGE NOUS RENCONTRER*/
+@import url('css/rencontrer.css');
+
 /*FOOTER*/
 @import url('css/footer.css');
