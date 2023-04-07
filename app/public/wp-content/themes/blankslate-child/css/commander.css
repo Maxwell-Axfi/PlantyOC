@@ -1,0 +1,65 @@
+/*Général*/
+.planty_commander_h2 {
+    text-align: left;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: none;
+    line-height: 36px;
+    color: white;
+}
+
+.planty_commander_largeur {
+    width: 860px;
+}
+
+.planty_commander_conteneur {
+    display: flex;
+    justify-content: center;
+}
+
+.planty_commander_section {
+    background-color: #3b8e46;
+    margin-bottom: 0px;
+}
+
+/*Formulaire*/
+.planty_commander_formulaire {
+  display: flex;
+  padding-top: 50px;
+  border-top: solid 1px white;
+}
+
+.planty_commander_formulaire > div > h2 {
+  padding-bottom: 30px;
+}
+
+.planty_commander_formulaire > div > p > label {
+  color: white;
+}
+
+.planty_commander_formulaire > div > p:last-child  > label > span > input {
+  margin-bottom: 0px !important;
+}
+
+.planty_commander_formulaire_informations, .planty_commander_formulaire_livraison {
+  width: 100%;
+}
+
+.planty_commander_formulaire_livraison {
+  border-left: solid 1px white;
+  padding-left: 45px;
+}
+
+.planty_commander_formulaire_informations {
+  padding-right: 35px;
+}
+
+.planty_commander_formulaire_bouton {
+  margin-top: 42px;
+  margin-bottom: 90px;
+}
+
+.planty_commander_formulaire_bouton > p > .wpcf7-spinner {
+  display: none;
+}
+
