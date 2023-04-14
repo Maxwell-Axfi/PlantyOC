@@ -152,3 +152,31 @@ function wpm_add_taxonomies() {
 
 	register_taxonomy( 'gout', 'lesgouts', $args_gout );
 }
+
+//Ajout de l'item Admin dans le menu, à la deuxième position
+
+add_filter('wp_nav_menu_items','add_admin_link_item', 10, 2);
+
+function add_admin_link_item( $items, $args ) 
+{
+    if( is_user_logged_in() && $args->theme_location == 'main-menu' ) 
+	{
+        $items_array = array();
+        while ( false !== ( $item_pos = strpos ( $items, '<li', 2 ) ) ) //Indiquer position du custom item, ici 2ème
+        {
+            $items_array[] = substr($items, 0, $item_pos);
+            $items = substr($items, $item_pos);
+        }
+        $items_array[] = $items;
+        array_splice($items_array, 1, 0, '<li id="menu-item-admin" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-admin">'
+		.'<a href="' . get_admin_url() . '" itemprop="url">'
+		.'<span itemprop="name">Admin</span>'
+		.'</a></li>'); // Ajouter le code HTML du custom item, ici après la position 1
+
+        $items = implode('', $items_array);
+    }
+    return $items;
+}
+
+function hide_admin_bar(){ return false; }
+add_filter( 'show_admin_bar', 'hide_admin_bar' );
