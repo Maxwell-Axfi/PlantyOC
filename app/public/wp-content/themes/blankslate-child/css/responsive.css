@@ -1,0 +1,223 @@
+/*TABLETTE*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /*Général*/
+    h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    h2 {
+        font-size: 27px;
+        line-height: 27px;
+    }
+
+    h3 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    p {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+    .planty_commander_largeur {
+        width: 415px;
+    }
+
+
+    /*Page Accueil*/
+    .canette > img {
+        width: 300px;
+    }
+
+    .plante1 > img, .plante2 > img {
+        width: 260px;
+    }
+
+    .plante1, .plante2 {
+        padding-top: 100px;
+    }
+
+    .plante1 {
+        padding-right: 50px;
+    }
+
+    .plante2 {
+        padding-left: 50px;
+    }
+
+    .planty_accueil_section2_h3 {
+        padding-bottom: 40px;
+    }
+
+    .planty_accueil_section3_colonne_gouts {
+        padding: 0px 40px;
+    }
+
+    .planty_accueil_section3_gouts > article > div > div > .ebpg-entry-header {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    
+    .planty_accueil_section4 {
+        margin-bottom: 30px;
+    }
+
+    .planty_accueil_section4_colonne {
+        width: 700px;
+    }
+
+    .planty_accueil_section4_colonne_img {
+        justify-content: center;
+    }
+
+    .planty_accueil_section4_colonne_img > figure > img {
+        width: 100px;
+        height: 110px;
+    }
+
+    .planty_accueil_section4_colonne {
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column;
+        flex-basis: 0% !important;
+    }
+}
+
+
+/*MOBILE*/
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+   /*Général*/
+    h1 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    h2 {
+        font-size: 21px;
+        line-height: 21px;
+    }
+
+    h3 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    p {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+    .planty_commander_largeur {
+        width: 300px;
+      }
+    
+    /*Page Accueil*/
+
+    .planty_accueil_h1 {
+        padding-top: 50px;
+    }
+
+    .planty_image_canette {
+        padding-bottom: 6px;
+    }
+
+    .canette_column {
+        padding-top: 30px;
+    }
+
+    .canette > img {
+        width: 160px;
+    }
+
+    .plante1 > img, .plante2 > img {
+        width: 150px;
+    }
+
+    .plante1, .plante2 {
+        padding-top: 50px;
+    }
+
+    .plante1 {
+        padding-right: 110px;
+    }
+
+    .plante2 {
+        padding-left: 110px;
+    }
+
+    .planty_accueil_section2_colonne {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .planty_accueil_section2_h3 {
+        padding-bottom: 30px;
+    }
+
+    .planty_accueil_section2_colonne > p {
+        padding: 0px 50px;
+    }
+
+    .planty_accueil_section3_colonne_gouts {
+        padding: 0px 20px;
+    }
+
+    .planty_accueil_section3_gouts > article > div > div > .ebpg-entry-header {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .planty_accueil_section3_colonne p {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+    }
+
+    .planty_accueil_section3_gouts {
+        row-gap: 20px !important;
+    }
+
+    .planty_accueil_section3_colonne_gouts > div > div > article:nth-child(3) header {
+        padding: 0px 20px;
+    }
+
+    .planty_accueil_section4 {
+        margin-bottom: 30px;
+    }
+
+    .planty_accueil_section4_h2 {
+        padding-top: 60px;
+    }
+
+    .planty_accueil_section4_colonne {
+        width: 300px;
+        padding-top: 40px;
+    }
+
+    .planty_accueil_section4_colonne_img {
+        justify-content: center;
+        margin-bottom: -20px !important;
+    }
+
+    .planty_accueil_section4_colonne_img > figure > img {
+        width: 80px;
+        height: 88px;
+        margin-right: 13px;
+        margin-top: 10px;
+    }
+
+    .planty_accueil_section4_colonne_img > div > div > p {
+        padding-top: 4px;
+        width: 185px;
+    }
+
+    /*FOOTER*/
+    .planty_accueil_prefooter {
+        background-position: center;
+    }
+
+}
