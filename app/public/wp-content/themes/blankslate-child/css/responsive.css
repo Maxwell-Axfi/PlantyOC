@@ -84,6 +84,32 @@
         flex-direction: column;
         flex-basis: 0% !important;
     }
+
+    /*Page Rencontrer*/
+    .planty_rencontrer_section2_equipe {
+        width: 500px;
+    }
+
+    .planty_rencontrer_section1_p {
+        width: 530px;
+    }
+
+    
+    .planty_rencontrer_section1_img > figure > img {
+        width: 100px;
+         height: 100px;
+        margin-top: 44px;
+        margin-right: 600px;
+        margin-bottom: 0px;
+        margin-left: 40px;
+    }
+
+
+    /*FOOTER*/
+    .planty_accueil_prefooter {
+        background-position: center;
+    }
+
 }
 
 
@@ -114,7 +140,7 @@
     .planty_commander_largeur {
         width: 300px;
       }
-    
+
     /*Page Accueil*/
 
     .planty_accueil_h1 {
@@ -213,6 +239,23 @@
     .planty_accueil_section4_colonne_img > div > div > p {
         padding-top: 4px;
         width: 185px;
+    }
+
+    /*Page rencontrer*/
+    .planty_rencontrer_section1_h1, .planty_rencontrer_section1_p {
+        width: 260px;
+    }
+
+    .planty_rencontrer_section1_img > figure > img {
+        width: 100px;
+        height: 100px;
+        margin-top: 30px;
+        margin-right: 180px;
+        margin-bottom: 0px;
+    }
+
+    .planty_rencontrer_formulaire > div > div > form > p > label > span > input {
+        width: 300px;
     }
 
     /*FOOTER*/

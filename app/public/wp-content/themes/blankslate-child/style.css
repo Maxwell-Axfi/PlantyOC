@@ -11,6 +11,7 @@ Tags:    	 opensource
 Text Domain: blankslatechild
 */
 
+
 /*GÉNÉRAL*/
 @import url('css/general.css');
 
@@ -23,5 +24,11 @@ Text Domain: blankslatechild
 /*PAGE NOUS RENCONTRER*/
 @import url('css/rencontrer.css');
 
+/*PAGE COMMANDER*/
+@import url('css/commander.css');
+
 /*FOOTER*/
 @import url('css/footer.css');
+
+/*RESPONSIVE*/
+@import url('css/responsive.css');
