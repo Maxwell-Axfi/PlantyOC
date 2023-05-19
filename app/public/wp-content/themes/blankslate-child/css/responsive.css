@@ -105,6 +105,17 @@
     }
 
 
+    /*Page Commander*/
+
+    .planty_responsive_mobile {
+        display: none !important;
+    }
+
+    .planty_commander_section2 > .planty_commander_conteneur > .eb-parent-wrapper {
+        margin: 0px 150px !important;
+    }
+
+
     /*FOOTER*/
     .planty_accueil_prefooter {
         background-position: center;
@@ -258,9 +269,72 @@
         width: 300px;
     }
 
+    /*Page Commander*/
+
+    .planty_responsive_tablette {
+        display: none !important;
+    }
+
+    .planty_commander_section2 > .planty_commander_conteneur > div {
+        margin: 0px 20% !important;
+    }
+
+    .planty_commander_formulaire > div > p > label > span > input {
+        width: 300px;
+    }
+
     /*FOOTER*/
     .planty_accueil_prefooter {
         background-position: center;
     }
 
+}
+
+
+
+/*DESKTOP ONLY*/
+
+@media screen and (min-width: 1023px) {
+    .planty_responsive_tablette, .planty_responsive_mobile {
+        display: none !important;
+    }
+}
+
+
+/*TABLETTE + MOBILE*/
+
+@media screen and (max-width: 1023px) {
+
+    .planty_commander_section2 .wp-block-columns:not(.is-not-stacked-on-mobile) > .wp-block-column {
+        flex-basis: 33% !important;
+      }
+
+    .planty_responsive_desktop {
+        display: none !important;
+    }
+
+    .planty_commander_formulaire {
+        flex-wrap: wrap;
+    }
+
+    .planty_commander_formulaire_livraison {
+        border-left: none;
+        padding-left: 0px;
+        padding-top: 50px;
+        border-top: solid 1px white;
+    }
+
+    .planty_commander_formulaire_informations {
+        padding-right: 0px;
+        padding-bottom: 50px;
+      }
+}
+
+
+/*Fix paramètres par défaut*/
+
+@media (max-width: 781px) and (min-width: 767px) {
+    .wp-block-columns:not(.is-not-stacked-on-mobile) > .wp-block-column {
+        flex-basis: 0% !important;
+    }
 }
