@@ -70,6 +70,7 @@
     flex-wrap: wrap;
     row-gap: 40px !important;
     column-gap: 30px !important;
+    width: 830px;
 }
 
 .planty_accueil_section3_gouts > article > div > div > div > img {

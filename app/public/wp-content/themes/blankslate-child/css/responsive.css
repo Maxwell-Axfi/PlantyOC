@@ -52,6 +52,10 @@
         padding-bottom: 40px;
     }
 
+    .planty_accueil_section3_gouts {
+        width: 800px;
+    }
+
     .planty_accueil_section3_colonne_gouts {
         padding: 0px 40px;
     }
@@ -59,6 +63,7 @@
     .planty_accueil_section3_gouts > article > div > div > .ebpg-entry-header {
         font-size: 36px;
         line-height: 46px;
+        width: 350px;
     }
     
     .planty_accueil_section4 {
@@ -151,6 +156,32 @@
     .planty_commander_largeur {
         width: 300px;
       }
+    
+
+    /*Navbar*/
+
+    .custom-logo {
+        content: url(http://planty.local/wp-content/uploads/2023/05/Feuille.png);
+        object-fit: contain;
+        width: 20px;
+    }
+
+    .planty_nav span, footer span {
+        font-size: 13px;
+    }
+
+    #menu-item-38 > a:hover, #menu-item-admin > a:hover, li.menu-item.current-menu-item a, .menu-menu-footer-container > ul > li > a:hover {
+        font-weight: 500;
+    }
+
+    #menu-menu-planty > li:nth-last-child(1) > a {
+        padding: 31px 30px 30px 30px;
+    }
+
+    .planty_header {
+        margin-left: 30px;
+        height: 80px;
+    }
 
     /*Page Accueil*/
 
@@ -199,6 +230,10 @@
         padding: 0px 50px;
     }
 
+    .planty_accueil_section3_gouts {
+        width: 600px;
+    }
+
     .planty_accueil_section3_colonne_gouts {
         padding: 0px 20px;
     }
@@ -206,6 +241,10 @@
     .planty_accueil_section3_gouts > article > div > div > .ebpg-entry-header {
         font-size: 28px;
         line-height: 38px;
+    }
+
+    .planty_accueil_section3_gouts > article > div > .ebpg-entry-media {
+        width: 320px;
     }
 
     .planty_accueil_section3_colonne p {
@@ -253,6 +292,7 @@
     }
 
     /*Page rencontrer*/
+
     .planty_rencontrer_section1_h1, .planty_rencontrer_section1_p {
         width: 260px;
     }
@@ -265,8 +305,23 @@
         margin-bottom: 0px;
     }
 
-    .planty_rencontrer_formulaire > div > div > form > p > label > span > input {
-        width: 300px;
+    .planty_rencontrer_formulaire > div > div > form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .planty_rencontrer_formulaire > div > div > form > p > label > span > input, .planty_rencontrer_formulaire > div > div > form > p > label > span > textarea {
+        width: 280px;
+    }
+
+    .planty_rencontrer_section3_plante > img {
+        margin-top: -263px;
+        margin-right: 253px;
+    }
+
+    .planty_rencontrer_formulaire > div > div > form > p > .wpcf7-submit {
+        margin-left: 70px;
     }
 
     /*Page Commander*/
@@ -330,6 +385,33 @@
       }
 }
 
+/*MOBILE NAVBAR*/
+
+@media screen and (max-width: 767px) and (min-width: 500px) {
+    #menu-menu-planty {
+        column-gap: 60px;
+    }
+}
+
+@media screen and (max-width: 501px) and (min-width: 452px) {
+    #menu-menu-planty {
+        column-gap: 60px;
+    }
+}
+
+@media screen and (max-width: 451px) and (min-width: 320px) {
+    #menu-menu-planty {
+        column-gap: 15px;
+    }
+
+    #menu-menu-planty > li:nth-last-child(1) > a {
+        padding: 31px 15px 30px 15px;
+      }
+
+      .planty_header {
+        margin-left: 10px;
+      }
+}
 
 /*Fix paramètres par défaut*/
 

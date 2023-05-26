@@ -171,6 +171,7 @@ input[type=number] {
     display: flex;
     justify-content: space-between;
     width: 193px;
+    margin-top: 10px !important;
 }
 
 .planty_commander_compteur_largeur {
